@@ -1,0 +1,10 @@
+conda create -n iqraws python=3.8 anaconda=2021.05
+
+conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch-lts -c nvidia
+
+pip install iqradre==0.1.5
+
+pip install iqradre==0.1.5 deepface dlib face_recognition mtcnn
+
+pip install email-validator requests celery passlib bcrypt tenacity pydantic emails raven gunicorn jinja2 psycopg2-binary alembic sqlalchemy pytest python-jose cryptography mypy black isort autoflake flake8 pytest sqlalchemy-stubs pytest-cov
+
